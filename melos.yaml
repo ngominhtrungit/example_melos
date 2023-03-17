@@ -1,0 +1,17 @@
+name: app-test-mono
+
+packages:
+  - packages/**
+
+command:
+  bootstrap:
+    runPubGetInParallel: false
+    usePubspecOverrides: false
+
+scripts:
+  analyze:
+    run: melos exec -- flutter analyze .
+    description: Run `dart analyze` in all packages.
+
+ide:
+  intellij: true
