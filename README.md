@@ -2,4 +2,4 @@
 # author: cristrung
 # this is example config flutter melos
 # Docs:
- - hhttps://melos.invertase.dev/configuration/overview
+ - https://melos.invertase.dev/configuration/overview
